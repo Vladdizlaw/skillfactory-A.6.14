@@ -1,2 +1,2 @@
 # skillfactory-A.6.14
-Ten squares
+Ten squares, practice
