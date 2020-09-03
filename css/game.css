@@ -1,0 +1,34 @@
+.grid-wrapper{
+	display:grid;
+	grid-template-columns:repeat(6,100px);
+	grid-template-rows:repeat(6,80px);
+	grid-gap:1px;
+}
+/*.game-field {
+  background-color: orange;
+  min-height: 10vh;
+  margin: 1px 1px 1px 1px;
+  line-height: 10vh;*/
+
+
+
+
+
+.grid-item {
+	background-color:orange;
+}
+.btn {
+	margin-top:20px;
+}
+.page-2{
+	display:none;
+}
+.target {
+  background-color: green;
+  color: white;
+  font-size: 24pt;
+  text-align: center;
+}
+.miss {
+  background-color: red;
+}

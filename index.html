@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/game.css">
+
+    <title>PWS A6 HW</title>
+
+
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="page-1">
+      <h1>10 квадратов</h1>
+
+      <!-- FIXME: сейчас тут не все слоты, надо добавить нужных -->
+      <div class="grid-wrapper">
+        <div class="grid-item item1" id="slot-1"></div>
+        <div class="grid-item item2" id="slot-2"></div>
+        <div class="grid-item item3" id="slot-3"></div>
+        <div class="grid-item item4" id="slot-4"></div>
+        <div class="grid-item item5" id="slot-5"></div>
+        <div class="grid-item item6" id="slot-6"></div>
+        <div class="grid-item item7" id="slot-7"></div>
+        <div class="grid-item item8" id="slot-8"></div>
+        <div class="grid-item item9" id="slot-9"></div>
+        <div class="grid-item item10" id="slot-10"></div>
+        <div class="grid-item item11" id="slot-11"></div>
+        <div class="grid-item item12" id="slot-12"></div>
+        <div class="grid-item item13" id="slot-13"></div>
+        <div class="grid-item item14" id="slot-14"></div>
+        <div class="grid-item item15" id="slot-15"></div>
+        <div class="grid-item item16" id="slot-16"></div>
+        <div class="grid-item item17" id="slot-17"></div>
+        <div class="grid-item item18" id="slot-18"></div>
+        <div class="grid-item item19" id="slot-19"></div>
+        <div class="grid-item item20" id="slot-20"></div>
+        <div class="grid-item item21" id="slot-21"></div>
+        <div class="grid-item item22" id="slot-22"></div>
+        <div class="grid-item item23" id="slot-23"></div>
+        <div class="grid-item item24" id="slot-24"></div>
+        <div class="grid-item item25" id="slot-25"></div>
+        <div class="grid-item item26" id="slot-26"></div>
+        <div class="grid-item item26" id="slot-27"></div>
+        <div class="grid-item item26" id="slot-28"></div>
+        <div class="grid-item item26" id="slot-29"></div>
+        <div class="grid-item item26" id="slot-30"></div>
+        <div class="grid-item item26" id="slot-31"></div>
+        <div class="grid-item item26" id="slot-32"></div>
+        <div class="grid-item item26" id="slot-33"></div>
+        <div class="grid-item item26" id="slot-34"></div>
+        <div class="grid-item item26" id="slot-35"></div>
+        <div class="grid-item item26" id="slot-36"></div>
+
+      </div>
+       <button id="button-reload" class="btn btn-primary">Играть заново</button>
+       <button id="button-start" class="btn btn-primary">Начать игру</button>
+       <h3>Ошибок:<span id="missnow"></span></h3>
+     </div>
+      <div class="page-2">
+      <div id="win-message" >
+        <!-- TODO: можно добавить красные квадратики с отрицательным весом и делать счёт попаданий в конце как разницу очков за попадание минус штрафные -->
+        <h2>Вы нашли <span id="goal"> </span> зелёных квадратов за <span id="total-time-played"></span> секунд</h2>
+        <h2> Вы не нашли <span id="missed"></span> квадратов </h2>
+        <button id="button-reload2" class="btn btn-primary">Играть заново</button>
+      </div>
+      
+       
+      </div>
+    </div>
+    
+
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/game.js"></script>
+  </body>
+</html>
